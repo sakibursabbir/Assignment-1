@@ -1,0 +1,55 @@
+body {
+  /* CSS of background image start */
+  height: 100%;
+  overflow: auto;
+  background: url('../image/background.jpg') rgba(0, 0, 0, 0.3);
+  background-blend-mode: multiply;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* CSS of background image end */
+
+
+  /* Navbar background CSS start */
+  .nav-back {
+    background-color: #0E1D30;
+  }
+
+  /* Navbar background CSS end */
+
+
+  /* Card text align start */
+  .text {
+    text-align: justify;
+  }
+  /* Card text align end */
+
+}
+
+/* Card icon start */
+.socials i {
+  font-size: 29px;
+  color: #5C636A;
+  padding: 0 9px;
+}
+/* Card icon end */
+
+/* Form shadow start */
+.box-shadow {
+  box-shadow: 0px 0px 5px white;
+}
+/* Form shadow end */
+
+/* Placeholder color CSS start */
+::-webkit-input-placeholder {
+  color: white !important;
+  opacity: 0.5 !important;
+}
+/* Placeholder color CSS end */
+
+/* input & textarea CSS start */
+input,
+textarea {
+  color: white !important;
+}
+/* input & textarea CSS end */
